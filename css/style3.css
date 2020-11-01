@@ -10,6 +10,15 @@ header {
   background-position: center;
   background-color: #34495e;
 }
+body {
+  background-color: #34495e;
+}
+
+.main {
+  max-width: 1200px;
+  margin: auto;
+  margin-right: 10px;
+}
 
 
 .logo img {
@@ -49,26 +58,33 @@ ul li.active a{
   color: #000;
 }
 
+
+.table-title {
+  font-size: 30px;
+  color:white;
+  margin-top: auto;
+}
+
 table {
   width: 1000px;
   margin-left: 180px;
   margin-right: auto;
-  margin-top: auto;
+  margin-top: 50px;
   margin-bottom: auto;
   /* border-spacing: 40px; */
 }
 
-th, caption{
+th{
   text-align: center;
-  margin-top: 100px;
+  margin-top: 200px;
   margin-left: auto;
 }
 
-caption{
+/* caption{
   color: #fff;
   font-size: 24px;
   border-spacing: 5px;
-}
+} */
 
 table, th, td {
   border: 1px solid #000;
@@ -93,6 +109,14 @@ tr:nth-child(odd){
   width: 400px;
   height: 400px;
   margin: 100px;
+}
+
+.description p{
+  font-size: 18px;
+  margin-top: 50px;
+  text-align: justify;
+  color: white;
+
 }
 
 @mediascreenand(max-device-width:400px){
