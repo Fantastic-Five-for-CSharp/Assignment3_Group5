@@ -18,6 +18,8 @@ body {
   max-width: 1200px;
   margin: auto;
   margin-right: 10px;
+  position: fixed;
+	right:0px;
 }
 
 
@@ -58,11 +60,10 @@ ul li.active a{
   color: #000;
 }
 
-
 .table-title {
   font-size: 30px;
   color:white;
-  margin-top: auto;
+  margin-top: 10px;
 }
 
 table {
