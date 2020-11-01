@@ -1,7 +1,13 @@
+/* @@import url("http://fonts.googleapis.com/css?family=Poppins&display=swap"); */
+
 *{
   margin: 0;
   padding: 0;
   font-family: Century Gothic;
+}
+
+body {
+  background-color: #34495e;
 }
 
 header {
@@ -9,6 +15,14 @@ header {
   background-size: cover;
   background-position: center;
   background-color:  #34495e
+}
+
+.main {
+  max-width: 1200px;
+  margin: auto;
+  margin-right: 10px;
+  font-size: 20px;
+  margin-top: 5px;
 }
 
 ul {
@@ -39,7 +53,7 @@ ul li.active a{
   color: #000;
 }
 
-.team-section {
+/* .team-section {
   overflow: hidden;
   text-align: center;
   background: #34495e;
@@ -122,4 +136,66 @@ ul li.active a{
 　　display:none;
 　　}
 　　}
-img,object{max-width:100%;}
+img,object{max-width:100%;} */
+
+.container {
+  margin: 20px 40px;
+  color:white;
+}
+
+.heading {
+  font-size: 60px;
+  color:white;
+}
+
+.heading span{
+  font-style:  italic;
+  font-size: 30px;
+}
+
+.profiles {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 80px;
+}
+
+.profile {
+  flex-basis: 260px;
+}
+
+.profile-img {
+  height: 260px;
+  width: 260px;
+  border-radius: 50%;
+  filter: grayscale(100%);
+  cursor: pointer;
+  transition: 400ms;
+}
+
+.profile:hover .profile-img {
+  filter: grayscale(0);
+}
+
+.user-name {
+  margin-top: 30px;
+  font-size: 35px;
+  margin-left: 35px;
+}
+
+.profile p{
+  font-size: 18px;
+  margin-top: 20px;
+  text-align: justify;
+}
+
+.model-title {
+  font-size: 60px;
+  color:white;
+  margin-top: 50px;
+}
+
+.modelpic {
+  height: 3000px;
+  width: 3000px;
+  margin-top: 20px;
+}
